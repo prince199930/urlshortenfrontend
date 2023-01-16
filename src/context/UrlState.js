@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function UrlState(props) {
     const [urls, setUrls] = useState([]);
-    const baseUrl = 'https://urlshorten-4nkn.onrender.com'
+    const baseUrl = 'https://urlshorten-dz8h.onrender.com'
     // const baseUrl = 'http://localhost:8000'
     const fetchUrlAndSetUrl = async () => {
         const result = await axios(`${baseUrl}/api/url/fetchallurls`);
